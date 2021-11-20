@@ -48,6 +48,18 @@
             android:layout_height="wrap_content"
             android:text="Convertir Minutos a Segundos" />
 
+        <Button
+            android:id="@+id/buttonConversor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conversor de Litros a Mililitros" />
+
+        <Button
+            android:id="@+id/buttonConversor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conversor de Kelvin a Celsius" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
