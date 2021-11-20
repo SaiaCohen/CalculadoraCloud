@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraCloud">
         <activity
+            android:name=".ConvertirActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MultiplicacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DivisionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SumaActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
