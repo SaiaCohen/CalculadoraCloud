@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonMultiplicacion;
     private Button buttonTangente;
     private Button buttonDivis;
+    private Button buttonConversor1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,12 +65,25 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        buttonConversor1 = findViewById(R.id.buttonConversor1 );
+        buttonConversor1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                abrirConversor1();
+            }
+
+        });
 
 
     }
 
     private void abrirTangente() {
         Intent intent = new Intent(this, ConvertirActivity.class);
+        startActivity(intent);
+    }
+
+    private void abrirConversor1() {
+        Intent intent = new Intent(this, Conversor1.class);
         startActivity(intent);
     }
 

@@ -42,6 +42,12 @@
             android:layout_height="wrap_content"
             android:text="Multiplicación" />
 
+        <Button
+            android:id="@+id/buttonConversor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convertir Minutos a Segundos" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraCloud">
         <activity
+            android:name=".Conversor1"
+            android:exported="true" />
+        <activity
             android:name=".ConvertirActivity"
             android:exported="true" />
         <activity
